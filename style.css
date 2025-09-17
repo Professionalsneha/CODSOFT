@@ -1,0 +1,113 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: Arial, sans-serif; line-height: 1.6; background: #fff; color: #333; }
+
+
+.navbar {
+  background: #111;
+  color: #fff;
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.nav-inner {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo { color: #00adb5; }
+.navbar ul { list-style: none; display: flex; }
+.navbar ul li { margin-left: 20px; }
+.navbar ul li a { color: #fff; text-decoration: none; transition: 0.3s; }
+.navbar ul li a:hover { color: #00adb5; }
+
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 10%;
+  background: #222;
+  color: #fff;
+}
+.hero-text { flex: 1; }
+.hero-text h1 { font-size: 36px; margin-bottom: 15px; }
+.hero-text span { color: #00adb5; }
+.hero-image img {
+  width: 300px;
+  border-radius: 10px;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 15px;
+  background: #00adb5;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.btn:hover { background: #019ca3; }
+
+
+.about { padding: 60px 10%; background: #f5f5f5; }
+.about-inner { display: flex; gap: 30px; align-items: center; }
+.about-img img { width: 220px; border-radius: 10px; }
+.about-text { flex: 1; }
+.about h2 { margin-bottom: 15px; color: #111; }
+
+
+.services { padding: 60px 10%; }
+.services h2 { text-align: center; margin-bottom: 30px; }
+.services-grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.service-card {
+  background: #eee;
+  padding: 20px;
+  flex: 1;
+  text-align: center;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+.service-card:hover { background: #ddd; }
+
+
+.skills { padding: 60px 10%; background: #f5f5f5; }
+.skills h2 { margin-bottom: 15px; }
+.skills ul { list-style: disc; padding-left: 20px; }
+
+
+.works { padding: 60px 10%; }
+.works h2 { text-align: center; margin-bottom: 20px; }
+.works-grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.work-card {
+  background: #eee;
+  padding: 30px;
+  border-radius: 8px;
+  flex: 1;
+  text-align: center;
+  transition: 0.3s;
+}
+.work-card:hover { background: #ddd; }
+
+
+.contact { padding: 60px 10%; background: #f5f5f5; }
+.contact h2 { margin-bottom: 15px; }
+
+
+footer {
+  background: #111;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
